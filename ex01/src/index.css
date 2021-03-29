@@ -1,0 +1,42 @@
+.main{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    padding: 5px;
+    background-color: black;
+    transition: bottom 0.4s;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.keyboard_keys{
+    text-align: justify;
+}
+.keyboard_key{
+
+    height: 20%;
+    width: 8%;
+
+    border-color: teal;
+    background: black;
+    color: white;
+    font-size: 2.05rem;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.keyboard_key_wide{
+    width:16% ;
+    height: 40%;
+}
+.keyboard_key_extrawide{
+width: 24%;
+}
+.keyboard_key_extraextrawide{
+    width:74.5% ;
+}
